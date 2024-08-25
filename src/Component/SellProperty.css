@@ -1,0 +1,136 @@
+/* SellProperty.css */
+
+/* Main container for the sell property section */
+.sell {
+  width: 100%;
+  height: 500px;
+  background-image: url('land1.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+
+/* Section container */
+.sell-property-section {
+  padding: 20px;
+  background-color: #f8f8f8;
+}
+
+/* Banner styles */
+.sell-property-banner {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.sell-property-banner h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.sell-property-banner p {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+/* Options container */
+.sell-property-options {
+  margin-top: 30px;
+}
+
+/* Details container */
+.sell-options-details {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Option card styles */
+.option-card {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+/* Resources section */
+.sell-property-resources h3 {
+  margin-top: 40px;
+}
+
+.sell-property-resources ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sell-property-resources ul li {
+  margin-bottom: 10px;
+}
+
+.sell-property-resources ul li a {
+  color: #0073e6;
+  text-decoration: none;
+}
+
+/* Image previews container */
+.image-previews {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+/* Preview image styles */
+.preview-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+/* Make the form container smaller */
+.sell-property-form-container {
+  max-width: 500px; /* Adjust the width */
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Reduce the spacing between form elements */
+.sell-property-form .form-group {
+  margin-bottom: 15px; /* Adjust the spacing */
+}
+
+/* Make the input fields and buttons smaller */
+.sell-property-form .form-control {
+  padding: 8px;
+  font-size: 14px; /* Adjust the font size */
+}
+
+.sell-property-form .btn {
+  padding: 8px 15px;
+  font-size: 14px; /* Adjust the font size */
+}
+
+/* Make image previews smaller */
+.image-preview-container .image-preview {
+  margin-top: 10px;
+  position: relative;
+  max-width: 120px; /* Adjust the image preview size */
+}
+
+.image-preview-container .image-preview img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.image-preview-container .image-preview .btn {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  font-size: 12px;
+  padding: 2px 5px;
+}

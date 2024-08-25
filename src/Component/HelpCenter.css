@@ -1,0 +1,67 @@
+/* HelpCenter.css */
+.help-center {
+  padding: 20px;
+}
+
+.help-header {
+  background-color: #007bff;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+.help-banner {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.help-search {
+  width: 50%;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.help-content {
+  display: flex;
+  justify-content: space-around;
+}
+
+.help-section {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 5px;
+  width: 45%;
+}
+
+.help-section h3 {
+  color: #343a40;
+}
+
+.help-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.help-section ul li {
+  margin: 10px 0;
+}
+
+.help-section ul li a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.help-section button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.help-section button:hover {
+  background-color: #0056b3;
+}

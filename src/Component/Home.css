@@ -1,0 +1,8 @@
+.Home{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgb(237,229,229,0.2),
+    rgb(248,240,240,0.5)),url(land1.jpg);
+    background-size: cover;
+    background-position: center;
+}
